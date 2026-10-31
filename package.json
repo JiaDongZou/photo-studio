@@ -1,0 +1,12 @@
+{
+  "name": "shiguang-photo-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node verify.cjs && node verify-edge.cjs && node verify-finishing.cjs",
+    "check": "node --check app.js && node --check engine.js"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

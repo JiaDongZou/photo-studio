@@ -1,0 +1,13 @@
+node_modules/
+verification/
+exports/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sgphoto
+*.mp4
+*.zip
+.DS_Store
+Thumbs.db
